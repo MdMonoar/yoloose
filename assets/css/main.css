@@ -1,0 +1,149 @@
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+
+.hr-c{
+  border-top: 1px dashed white;
+  /* border-radius: 5px; */
+}
+
+/* .content-links{
+  
+} */
+
+.content-links li{
+  list-style-type: circle;
+}
+
+.content-links li a{
+  color: skyblue;
+  text-decoration: none;
+}
+
+.content-links li a:hover{
+  /* color: cyan; */
+  text-decoration: underline;
+}
+
+
+a {
+  color: skyblue !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  /* color: cyan; */
+  text-decoration: underline !important;
+}
+
+.gallery-card{
+  min-width: 250px !important;
+  max-width: 250px !important;
+}
+
+.gallery-card-video{
+  height: auto;
+}
+
+.gallery-card-header{
+  /* background-color: #000000; */
+  background-color: #212d3e;
+  padding: .25rem;
+  margin: 0;
+  text-align: center;
+  white-space: normal;
+  align-content: center;
+}
+
+.rounded-top-2 {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: .5rem !important;
+}
+
+.rounded-bottom-2 {
+  border-bottom-right-radius: .5rem !important;
+  border-bottom-left-radius: .5rem !important;
+}
+
+.horizontal-video-scroll {
+  overflow-x: hidden; /* Default to hidden overflow */
+}
+
+.vertical-video-scroll {
+  overflow-x: hidden; /* Default to hidden overflow */
+  overflow-y: hidden;
+}
+
+.bg-1{
+  background-color: #0a0e19 !important;
+  /* color: white; or 
+  color1: #d9d9d9;
+
+  */
+}
+
+.bg-2{
+  background-color: #191009 !important;
+  /* 
+  color: white;
+  header-bg-color: #161f2c; or
+  header-bg-color: #212d3e;
+   */
+}
+
+.text-1{}
+
+.bg-2{}
+
+
+@media (max-width: 576px) {
+  .horizontal-video-scroll {
+      overflow-x: auto; /* Enable horizontal scrolling on small devices */
+      white-space: nowrap; /* Prevent line breaks */
+      border: 1px solid white;
+      border-radius: 15px;
+  }
+
+  .horizontal-video-scroll .row {
+    display: inline-flex; /* Align items in a row */
+    flex-wrap: nowrap; /* Prevent line breaks */
+  }
+
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+    justify-content: center; /* Center align the content */
+    height: 250px; /* Set a fixed height for the video wrapper */
+  }
+
+  .video {
+      width: 300px; /* Make the video take the full width of the wrapper */
+      height: auto; /* Maintain aspect ratio */
+      max-height: 100%; /* Ensure the video does not exceed the wrapper height */
+  }
+
+  .vertical-video-scroll {
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+    height:580px; 
+    overflow-y: scroll; 
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+}
+
+/* padding for the gallery */
+
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, .25rem);
+  padding-left: var(--bs-gutter-x, 0.25rem);
+  margin-right: auto;
+  margin-left: auto;
+} */
+
